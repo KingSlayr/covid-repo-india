@@ -1,0 +1,12 @@
+.card_statsHeading{
+    margin-bottom:10px;
+    color: gray;
+    font-size: 1.2em;
+}
+.card_statsToday{
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.card_statsTotal{
+    color: gray;
+}

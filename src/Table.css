@@ -1,0 +1,24 @@
+.table th{
+    margin-bottom: 10px;
+}
+
+.table{
+    height: 80vh;
+    overflow: scroll;
+}
+.btns_table{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.table>tr{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding:5px;
+}
+
+.table>tr:nth-of-type(odd){
+    background-color: rgb(228, 228, 228);
+}
