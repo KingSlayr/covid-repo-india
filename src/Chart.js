@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import {Line} from 'react-chartjs-2'
+import {Line,Chart as ourChart} from 'react-chartjs-2'
+import zoomPlugin from 'chartjs-plugin-zoom';
+
 import './Chart.css'
 import { color,indian_states_code } from './util'
 
@@ -9,6 +11,7 @@ export default function Chart({type,stateCurrent}) {
     const labels=[]
     const dataState=[]
     const [chartData, setChartData] = useState([])
+    ourChart.register(zoomPlugin);
 
     useEffect(() => {
         const getChartData = async () => {
@@ -29,19 +32,18 @@ export default function Chart({type,stateCurrent}) {
             })
         }
     })
-
-    // console.log('labels',labels,'Data',dataState);
     const data = {
         labels: labels,
         datasets: [
-        {
-            label: `${type} per day in ${indian_states_code[stateCurrent]}`,
-            data: dataState,
-        },
+            {
+                label: `${type} per day in ${indian_states_code[stateCurrent]}  (scroll/pinch to zoom)`,
+                data: dataState,
+            },
         ],
     };
     
     const options = {
+        responsive: true,
         scales: {
         yAxes: [
             {
@@ -60,8 +62,9 @@ export default function Chart({type,stateCurrent}) {
                 tension:1,
             },
             point:{            
-                radius:0.3,
+                radius:2,
                 hoverRadius:5,
+                opacity:1
             }
         },
         plugins:{
@@ -69,16 +72,24 @@ export default function Chart({type,stateCurrent}) {
                 enabled:true,
                 backgroundColor:color[type]?.bgColor
             },
+            zoom: {
+                zoom: {
+                  wheel: {
+                    enabled: true,
+                  },
+                  pinch: {
+                    enabled: true
+                  },
+                  mode: 'xy',
+                },
+                pan: {
+                    enabled: true,
+                    mode: 'xy',
+                    speed:10
+                },
+
+              }
         },
-        // animations: {
-        //     tension: {
-        //       duration: 10,
-        //       easing: 'linear',
-        //       from: 1,
-        //       to: 0,
-        //       loop: true
-        //     }
-        //   },
     };
 
     return (
