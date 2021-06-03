@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/covid-repo-india/static/css/main.2288e5dd.chunk.css",
-    "main.js": "/covid-repo-india/static/js/main.287e4e92.chunk.js",
-    "main.js.map": "/covid-repo-india/static/js/main.287e4e92.chunk.js.map",
-    "runtime-main.js": "/covid-repo-india/static/js/runtime-main.4bc19374.js",
-    "runtime-main.js.map": "/covid-repo-india/static/js/runtime-main.4bc19374.js.map",
+    "main.js": "/covid-repo-india/static/js/main.ae5d9954.chunk.js",
+    "main.js.map": "/covid-repo-india/static/js/main.ae5d9954.chunk.js.map",
+    "runtime-main.js": "/covid-repo-india/static/js/runtime-main.8f690636.js",
+    "runtime-main.js.map": "/covid-repo-india/static/js/runtime-main.8f690636.js.map",
     "static/css/2.c1e28d34.chunk.css": "/covid-repo-india/static/css/2.c1e28d34.chunk.css",
-    "static/js/2.5ebddefc.chunk.js": "/covid-repo-india/static/js/2.5ebddefc.chunk.js",
-    "static/js/2.5ebddefc.chunk.js.map": "/covid-repo-india/static/js/2.5ebddefc.chunk.js.map",
-    "static/js/3.dd8bd07a.chunk.js": "/covid-repo-india/static/js/3.dd8bd07a.chunk.js",
-    "static/js/3.dd8bd07a.chunk.js.map": "/covid-repo-india/static/js/3.dd8bd07a.chunk.js.map",
+    "static/js/2.a98cac5f.chunk.js": "/covid-repo-india/static/js/2.a98cac5f.chunk.js",
+    "static/js/2.a98cac5f.chunk.js.map": "/covid-repo-india/static/js/2.a98cac5f.chunk.js.map",
+    "static/js/3.d9c30852.chunk.js": "/covid-repo-india/static/js/3.d9c30852.chunk.js",
+    "static/js/3.d9c30852.chunk.js.map": "/covid-repo-india/static/js/3.d9c30852.chunk.js.map",
     "index.html": "/covid-repo-india/index.html",
     "static/css/2.c1e28d34.chunk.css.map": "/covid-repo-india/static/css/2.c1e28d34.chunk.css.map",
     "static/css/main.2288e5dd.chunk.css.map": "/covid-repo-india/static/css/main.2288e5dd.chunk.css.map",
-    "static/js/2.5ebddefc.chunk.js.LICENSE.txt": "/covid-repo-india/static/js/2.5ebddefc.chunk.js.LICENSE.txt"
+    "static/js/2.a98cac5f.chunk.js.LICENSE.txt": "/covid-repo-india/static/js/2.a98cac5f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4bc19374.js",
+    "static/js/runtime-main.8f690636.js",
     "static/css/2.c1e28d34.chunk.css",
-    "static/js/2.5ebddefc.chunk.js",
+    "static/js/2.a98cac5f.chunk.js",
     "static/css/main.2288e5dd.chunk.css",
-    "static/js/main.287e4e92.chunk.js"
+    "static/js/main.ae5d9954.chunk.js"
   ]
 }
