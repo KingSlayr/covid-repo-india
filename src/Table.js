@@ -61,7 +61,7 @@ export default function Table({type,setType,setState,stateData}) {
                                 </tr>
                             )
                         }
-                        return 0
+                        return null
                     })
                 }
             </div>

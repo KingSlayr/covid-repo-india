@@ -1,4 +1,4 @@
-import { Card, CardContent, CircularProgress, Typography } from '@material-ui/core'
+import { Card, CardContent, CircularProgress } from '@material-ui/core'
 import React from 'react'
 import './StatBox.css'
 import { color } from './util'
@@ -14,6 +14,8 @@ export default function StatBox({setType,appType,type,totalCases,cases}) {
             break;
         case 'Death':
             caseType='deceased'
+            break;
+        default :
             break;
     }
     return (
