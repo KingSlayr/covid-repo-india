@@ -75,7 +75,6 @@ function App() {
               cases={numeral(stateData[state]?.delta7.vaccinated).format('0 a')} />
           </div>
           <div className="app_map"><Map type={type} stateData={stateData}/></div>
-          {/* <Chart type={type} stateData={stateData} stateCurrent={state}/> */}
         </div>
         <div className="app_right">
           <div className="app_table">
