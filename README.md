@@ -1,3 +1,3 @@
-## Covid Tracker
+## 😷 Covid Tracker 🦠
 
 <img src='Capture.JPG'/>
